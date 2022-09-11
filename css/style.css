@@ -1,0 +1,90 @@
+body {
+    font-family: 'ヒラギノ丸ゴ ProN W4', Meiryo, ;
+    font-weight: bold;
+    color: darkolivegreen;
+    min-height: 1px;
+    min-width: 1280px;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration:none;
+    color: darkgray;
+}
+
+.boxshadow{
+    box-shadow: 0px 0px 15px -5px #777777;
+    border-radius: 10px;
+}
+
+/* ここからコンテンツ内ヘッダー */
+.header{
+    height: 90px;
+    background-color: rgb(247, 231, 18);
+}
+
+.header li{
+float: right;
+padding:32px 10px;
+border-left: solid 2px #f3dfa7;
+}
+
+.header-logo{
+float: left;
+margin: 30px 40px;
+}
+
+.header-nav1 {
+   margin-right:100px;
+}
+
+.header-nav1 a{
+    display: block;
+ }
+
+/* ここからメインコンテンツ */
+
+.main {
+    min-height: 400px;
+    background-color: antiquewhite;
+}
+
+.mainbox1{
+    float: left;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.mainbox1 img{
+width: 160px;
+height: auto;
+}
+/* ここからfooter */
+.footer {
+    background-color: darkgrey;
+    color: black;
+    height: 90px;
+    padding: 10px;
+}
+
+.footer-logo {
+    float:left;
+    font-size: 28px;
+}
+
+.footer-nav {
+    float: right;
+    font-size: 12px;
+}
+
+.footer-nav li{
+    display: inline;
+    margin-left: 20px;
+}
